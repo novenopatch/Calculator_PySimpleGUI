@@ -14,13 +14,11 @@ def create_window(theme: str):
             font='Franklin 20',
             justification='right',
             pad=(5, 5),
-            right_click_menu=theme_menu,
         ), sg.Text(
             '0',
             font='Franklin 20',
             justification='right',
             pad=(5, 5),
-            right_click_menu=theme_menu,
             key="-History-",
         ),
             sg.Text(
@@ -29,7 +27,6 @@ def create_window(theme: str):
                 justification='right',
                 expand_x=True,
                 pad=(5, 5),
-                right_click_menu=theme_menu,
                 key="-Ans-OutPut-",
             )
         ],
